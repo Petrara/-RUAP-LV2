@@ -1,0 +1,9 @@
+# -RUAP-LV2
+git init -b development
+git checkout development
+git add *
+git commit -a -m "Create a Read-Only Web API"
+git config user.name "*****"
+git config user.email "*****"
+git commit -a -m "Create a Read-Only Web API"
+git push --set-upstream https://github.com/Petrara/-RUAP-LV2.git development
